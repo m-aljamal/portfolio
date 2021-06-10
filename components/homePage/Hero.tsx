@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className=" hero mb-8 bg-blue-400">
+    <div className=" hero mb-8 bg-yellow">
       <div className="container pt-40 pb-8 flex justify-between items-center">
         <div>
           <h2>Join us to build your product</h2>

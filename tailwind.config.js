@@ -13,6 +13,11 @@ module.exports = {
         "2xl": "6rem",
       },
     },
+    colors: {
+      yellow: "#ffe88c",
+      blue: "#00a0d2",
+      white: "#FFFFFF",
+    },
     extend: {},
   },
   variants: {
