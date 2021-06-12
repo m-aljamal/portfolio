@@ -1,5 +1,4 @@
 module.exports = {
-  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -17,8 +16,16 @@ module.exports = {
       yellow: "#ffe88c",
       blue: "#00a0d2",
       white: "#FFFFFF",
+      burple: "#be93c5",
+      pink: "#7bc6cc",
+      gray: "#111827",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Mada", "sans-serif"],
+        Lalezar: ["Lalezar"],
+      },
+    },
   },
   variants: {
     extend: {},

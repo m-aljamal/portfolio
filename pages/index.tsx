@@ -1,5 +1,5 @@
 import Hero from "../components/homePage/Hero";
-import About from "../components/homePage/About";
+import CoreServices from "../components/homePage/CoreServices";
 import Projects from "../components/homePage/Projects";
 import All from "../components/homePage/All";
 export default function Home() {
@@ -7,11 +7,11 @@ export default function Home() {
     <div>
       <Hero />
 
-      <About />
+      <CoreServices />
 
-      <Projects />
+      {/* <Projects />
 
-      <All />
+      <All /> */}
     </div>
   );
 }
