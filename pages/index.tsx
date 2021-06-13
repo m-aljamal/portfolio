@@ -1,17 +1,16 @@
 import Hero from "../components/homePage/Hero";
 import CoreServices from "../components/homePage/CoreServices";
-import Projects from "../components/homePage/Projects";
-import All from "../components/homePage/All";
+import CustomersFeedBack from "../components/homePage/CustomersFeedBack";
+import Partnership from "../components/homePage/Partnership";
+import Promise from "../components/homePage/Promise";
 export default function Home() {
   return (
     <div>
       <Hero />
-
       <CoreServices />
-
-      {/* <Projects />
-
-      <All /> */}
+      <CustomersFeedBack />
+      <Partnership />
+      <Promise />
     </div>
   );
 }

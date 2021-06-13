@@ -22,9 +22,17 @@ const Text = () => {
       </div>
       <h2 className="mt-4  text-justify">{heroSection.description}</h2>
       <div className="  flex  flex-col xl:flex-row items-center mt-4">
-        <LinkButton title="ابدأ مشروعك الأن" link="/getstarted" />
+        <LinkButton
+          title="ابدأ مشروعك الأن"
+          link="/getstarted"
+          styles="w-40 py-2 px-8 border-t_gray"
+        />
         <p className="xl:mx-4 my-4 ">او</p>
-        <LinkButton title="تواصل معنا" link="/getstarted" />
+        <LinkButton
+          title="تواصل معنا"
+          link="/getstarted"
+          styles="w-40 py-2 px-8 border-t_gray"
+        />
       </div>
     </div>
   );
