@@ -23,6 +23,7 @@ module.exports = {
         pink: "#7bc6cc",
         t_gray: "#111827",
         borderColor: "#f2f2f2",
+        t_red: "#db3021",
       },
       fontFamily: {
         sans: ["Mada", "sans-serif"],
