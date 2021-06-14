@@ -27,7 +27,7 @@ export default function CoreServices() {
 const Service = ({ service }) => {
   return (
     <div
-      className={`text-center p-6 leading-8  mt-8  ${service.border} border-b-2 md:border-b-0`}
+      className={`text-center p-6 leading-8 mt-8 ${service.border} border-b-2 md:border-b-0`}
     >
       <i className={`${service.icon} fa-4x text-red-500`}></i>
       <h3 className="font-thin">{service.type}</h3>
