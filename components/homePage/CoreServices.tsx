@@ -10,24 +10,36 @@ export default function CoreServices() {
       <div className="md:grid grid-cols-3 mt-10 ">
         {coreServicesSection.services.map(
           (service, index) =>
-            index <= 2 && <Service service={service} key={index} />
+            index <= 2 && (
+              <Service
+                service={service}
+                key={index}
+                style={index === 1 && " md:border-l-2  md:border-r-2"}
+              />
+            )
         )}
       </div>
 
-      <div className="md:grid grid-cols-3 mt-10 md:border-t-2 border-t-0">
+      <div className="md:grid grid-cols-3 mt-10 md:border-t-2 border-t-0 ">
         {coreServicesSection.services.map(
           (service, index) =>
-            index > 2 && <Service service={service} key={index} />
+            index > 2 && (
+              <Service
+                service={service}
+                key={index}
+                style={index === 4 && " md:border-l-2  md:border-r-2"}
+              />
+            )
         )}
       </div>
     </div>
   );
 }
 
-const Service = ({ service }) => {
+const Service = ({ service, ...props }) => {
   return (
     <div
-      className={`text-center p-6 leading-8 mt-8  md:border-l-0  md:border-r-2 border-b-2 md:border-b-0`}
+      className={`text-center p-6 leading-8 mt-8  ${props.style}  border-b-2 md:border-b-0`}
     >
       <i className={`${service.icon} fa-4x text-red-500`}></i>
       <h3 className="font-thin">{service.type}</h3>
