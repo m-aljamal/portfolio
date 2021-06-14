@@ -23,8 +23,8 @@ export default function CustomersFeedBack() {
         <ul className="flex mt-8 ">
           {customerSection.feedBack.map((image, index) => (
             <li
-              className={`w-14 cursor-pointer  opacity-${
-                activeIndex === index ? 100 : 50
+              className={`w-14 cursor-pointer  ${
+                activeIndex === index ? "opacity-100" : "opacity-50"
               } `}
               onClick={() => handleClick(index)}
             >
