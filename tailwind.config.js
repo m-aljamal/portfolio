@@ -24,6 +24,8 @@ module.exports = {
         t_gray: "#111827",
         borderColor: "#f2f2f2",
         t_red: "#db3021",
+        transparentWhite: "rgb(255 255 255 / 50%)",
+         
       },
       fontFamily: {
         sans: ["Mada", "sans-serif"],
@@ -31,6 +33,9 @@ module.exports = {
         Poppins: ["Poppins"],
         IndieFlower: ["Indie Flower"],
       },
+      backgroundImage: (theme) => ({
+        office: "url('/images/office.jpeg')",
+      }),
     },
   },
   variants: {

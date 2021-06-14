@@ -14,7 +14,7 @@ export default function CoreServices() {
         )}
       </div>
 
-      <div className="md:grid grid-cols-3 mt-10 md:border-t-2">
+      <div className="md:grid grid-cols-3 mt-10 md:border-t-2 border-t-0">
         {coreServicesSection.services.map(
           (service, index) =>
             index > 2 && <Service service={service} key={index} />
