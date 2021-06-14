@@ -24,6 +24,7 @@ export const coreServicesSection = {
       نقوم بتحويل أي ملف تصميم: PSD ، Sketch ، Figma ، Adobe XD إلى قوالب HTML / CSS مثالية للبكسل ، ودلالي ، ومتوافقة مع المعايير.
       `,
       link: "/",
+      border: "md:border-l-2  md:border-r-2",
     },
     {
       icon: "fab fa-wordpress-simple",
@@ -33,7 +34,7 @@ export const coreServicesSection = {
       نحن نقدم حلول WordPress عالية التخصيص وسهلة الإدارة وقابلة للتمديد. المكونات الإضافية أو السمات أو التجارة الإلكترونية. نحن نستطيع فعلها.
       `,
       link: "/",
-      border: "border-l-2  border-r-2",
+      border: "md:border-l-2  md:border-r-2",
     },
     {
       icon: "fab fa-wordpress-simple",
@@ -43,6 +44,7 @@ export const coreServicesSection = {
       نحن نقدم حلول WordPress عالية التخصيص وسهلة الإدارة وقابلة للتمديد. المكونات الإضافية أو السمات أو التجارة الإلكترونية. نحن نستطيع فعلها.
       `,
       link: "/",
+      border: "md:border-l-2  md:border-r-2",
     },
     {
       icon: "fab fa-wordpress-simple",
@@ -52,6 +54,7 @@ export const coreServicesSection = {
       نحن نقدم حلول WordPress عالية التخصيص وسهلة الإدارة وقابلة للتمديد. المكونات الإضافية أو السمات أو التجارة الإلكترونية. نحن نستطيع فعلها.
       `,
       link: "/",
+      border: "md:border-l-2  md:border-r-2",
     },
     {
       icon: "fab fa-wordpress-simple",
@@ -61,7 +64,7 @@ export const coreServicesSection = {
       نحن نقدم حلول WordPress عالية التخصيص وسهلة الإدارة وقابلة للتمديد. المكونات الإضافية أو السمات أو التجارة الإلكترونية. نحن نستطيع فعلها.
       `,
       link: "/",
-      border: "border-l-2  border-r-2",
+      border: "md:border-l-2  md:border-r-2",
     },
     {
       icon: "fab fa-wordpress-simple",
@@ -71,6 +74,7 @@ export const coreServicesSection = {
       نحن نقدم حلول WordPress عالية التخصيص وسهلة الإدارة وقابلة للتمديد. المكونات الإضافية أو السمات أو التجارة الإلكترونية. نحن نستطيع فعلها.
       `,
       link: "/",
+      border: "md:border-l-2  md:border-r-2",
     },
   ],
 };
