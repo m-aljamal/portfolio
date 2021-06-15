@@ -4,6 +4,7 @@ import CustomersFeedBack from "../components/homePage/CustomersFeedBack";
 import Partnership from "../components/homePage/Partnership";
 import Promise from "../components/homePage/Promise";
 import CompanyInfo from "../components/homePage/CompanyInfo";
+import StartWithUs from "../components/homePage/StartWithUs";
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       <Partnership />
       <Promise />
       <CompanyInfo />
+      <StartWithUs />
     </div>
   );
 }

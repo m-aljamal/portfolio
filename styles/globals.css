@@ -39,3 +39,20 @@ body {
   opacity: 0.85;
   border-width: 20px 0 20px 10px;
 }
+figure:before,
+figure:after {
+  content: "";
+  position: absolute;
+  width: 73px;
+  height: 20px;
+  right: 0;
+  z-index: 1;
+  background: #db3021;
+}
+figure:after {
+  bottom: 0;
+}
+.infoText {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

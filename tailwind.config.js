@@ -25,7 +25,6 @@ module.exports = {
         borderColor: "#f2f2f2",
         t_red: "#db3021",
         transparentWhite: "rgb(255 255 255 / 50%)",
-         
       },
       fontFamily: {
         sans: ["Mada", "sans-serif"],

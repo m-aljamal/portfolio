@@ -192,3 +192,5 @@ export const companyInfSection = {
     },
   ],
 };
+
+export const startWithUs = "انتا الفائز معنا...";
