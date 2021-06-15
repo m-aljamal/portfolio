@@ -34,10 +34,11 @@ body {
   top: 0;
   right: 73px;
   left: 0;
-  border: 117px solid #eee;
+  border-top: 20px solid #eee;
+  border-bottom: 20px solid #eee;
+  border-left: 10px solid #eee;
   border-right: 0;
   opacity: 0.85;
-  border-width: 20px 0 20px 10px;
 }
 figure:before,
 figure:after {

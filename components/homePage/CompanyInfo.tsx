@@ -35,24 +35,3 @@ const Numbers = ({ number, text }) => {
     </div>
   );
 };
-
-{
-  /* <section className="bg-office w-full elative ">
-      <div className="flex ">
-        <div className="bg-red-500 w-1/2 py-20">
-          <div className="container">
-            <h2>{companyInfSection.title}</h2>
-            <p>{companyInfSection.text}</p>
-            <p>{companyInfSection.text2}</p>
-            {companyInfSection?.numbers?.map((n) => (
-              <Numbers number={n.number} text={n.text} />
-            ))}
-          </div>
-        </div>
-        <div className=" w-1/2 py-20  ">
-          <div className="w-full"></div>
-        </div>
-      </div>
-      
-    </section> */
-}
