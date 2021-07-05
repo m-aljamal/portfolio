@@ -1,5 +1,5 @@
 import React from "react";
-import { startWithUs } from "../../utils/homePageText";
+import { startWithUs } from "../../../utils/homePageText";
 import { LinkButton } from "../shared/LinkButton";
 
 export default function StartWithUs() {

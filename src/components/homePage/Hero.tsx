@@ -1,5 +1,5 @@
-import { LinkButton } from "../../components/shared/LinkButton";
-import { heroSection } from "../../utils/homePageText";
+import { LinkButton } from "../shared/LinkButton";
+import { heroSection } from "../../../utils/homePageText";
 import CurveLine from "../shared/CurveLine";
 export default function Hero() {
   return (

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { links } from "../../utils/links";
+import { links } from "../../../utils/links";
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState("hidden");
   const linkStyle = "ml-8 hover:text-white cursor-pointer";
@@ -33,7 +33,7 @@ export default function Navbar() {
                 </Link>
               </div>
             ) : (
-              <div className={linkStyle}>
+              <div className={linkStyle} key={l.name}>
                 <Link href={l.link}>{l.name}</Link>
               </div>
             );

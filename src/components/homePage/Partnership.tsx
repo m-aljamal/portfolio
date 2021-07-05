@@ -1,5 +1,5 @@
 import React from "react";
-import { partnerShipSection } from "../../utils/homePageText";
+import { partnerShipSection } from "../../../utils/homePageText";
 import { LinkButton } from "../shared/LinkButton";
 
 export default function Partnership() {

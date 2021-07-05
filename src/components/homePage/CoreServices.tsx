@@ -1,4 +1,4 @@
-import { coreServicesSection } from "../../utils/homePageText";
+import { coreServicesSection } from "../../../utils/homePageText";
 import { LinkButton } from "../shared/LinkButton";
 export default function CoreServices() {
   return (

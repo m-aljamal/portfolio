@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { customerSection } from "../../utils/homePageText";
+import { customerSection } from "../../../utils/homePageText";
 
 export default function CustomersFeedBack() {
   const [activeIndex, setActiveIndex] = useState(0);

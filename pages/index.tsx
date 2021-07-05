@@ -1,10 +1,10 @@
-import Hero from "../components/homePage/Hero";
-import CoreServices from "../components/homePage/CoreServices";
-import CustomersFeedBack from "../components/homePage/CustomersFeedBack";
-import Partnership from "../components/homePage/Partnership";
-import Promise from "../components/homePage/Promise";
-import CompanyInfo from "../components/homePage/CompanyInfo";
-import StartWithUs from "../components/homePage/StartWithUs";
+import Hero from "src/components/homePage/Hero";
+import CoreServices from "src/components/homePage/CoreServices";
+import CustomersFeedBack from "src/components/homePage/CustomersFeedBack";
+import Partnership from "src/components/homePage/Partnership";
+import Promise from "src/components/homePage/Promise";
+import CompanyInfo from "src/components/homePage/CompanyInfo";
+import StartWithUs from "src/components/homePage/StartWithUs";
 export default function Home() {
   return (
     <div>

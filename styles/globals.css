@@ -57,3 +57,30 @@ figure:after {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/* .indicator {
+  position: absolute;
+  
+  width: 120px;
+  transition: all 0.2s ease-in-out;
+}
+.indicator::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border: 2px solid #4a4a4a;
+  border-radius: 2px;
+}
+.indicator::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background: url(https://htmlburger.com/assets/images/icon-getting-started-tab-arrow.svg)
+    no-repeat 0 0;
+  width: 23px;
+  height: 12px;
+  transform: translateX(-50%);
+} */

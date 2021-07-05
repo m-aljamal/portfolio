@@ -1,5 +1,5 @@
 import React from "react";
-import { companyInfSection } from "../../utils/homePageText";
+import { companyInfSection } from "../../../utils/homePageText";
 
 export default function CompanyInfo() {
   return (

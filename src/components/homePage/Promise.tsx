@@ -1,4 +1,4 @@
-import { promiseSection } from "../../utils/homePageText";
+import { promiseSection } from "../../../utils/homePageText";
 
 export default function Promisr() {
   return (
